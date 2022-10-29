@@ -1,0 +1,129 @@
+@font-face{
+    font-family: vazir;
+    src: url(fonts/Vazir-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: vazir;
+    font-size: 16px;
+    color: white;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: rgb(160, 160, 160);
+}
+.main{
+    grid-column: 3/11;
+    padding: 30px 30px;
+    min-width: 300px;
+    margin-top: 5%;
+    border: 1px solid #272622;
+    background-color: #272622;
+    box-shadow: 5px 5px 5px 5px rgb(113, 113, 113);
+}
+input{
+    border: 1px solid #ffe047;
+    background-color: #272622;
+    border-radius: 6px;
+}
+.addForm{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fit);
+    
+}
+.addForm label{
+    font-size: 1.2em;
+    font-weight: 500;
+    /* grid-row: 10px; */
+}
+hr{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0px 20px 0px;
+    border-color: #ffe047;
+}
+h1{
+    font-size: 1.6em;
+}
+label{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fit);
+}
+ul li{
+    border: 1px solid #ffe047;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+ul li span{
+
+}
+#NotFound{
+    display: none;
+}
+#NotFound p{
+    margin: 0 5px 20px 0;
+    color: #ffe047;
+    /* transition: display 0.3s linear; */
+    /* make an animation for appear & disapper p tag */
+}
+/* edition */
+i{
+    color: red;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding-top: 1px;
+    transition: font 0.3s ease;
+}
+i:hover{
+    font-size: 1.5em;
+}
+.submit{
+    padding: 3px 5px;
+    font-weight: bold;
+    border-radius: 6px;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid #ffe047;
+    background-color: #272622;
+    border-radius: 6px;
+    transition: color 0.3s linear, background 0.3s linear;
+}
+.submit:hover{
+    background-color: #ffe047;
+    color: #272622;
+}
+.taskInput{
+    width: 100%;
+    padding: 5px 10px;
+    margin: 10px 5px 20px 0px;
+    box-sizing: border-box;
+    transition: border 0.5s ease;
+}
+
+/* medaiquery */
+@media screen and (min-width: 1200px) {
+    .main{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 5% auto auto auto;
+        width: 800px;
+        height: fit-content;
+    }
+}

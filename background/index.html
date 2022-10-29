@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11</title>
+    <style>
+        .modal{
+            display: none;
+            text-align: center;
+            background-color: red;
+            color: white;
+            transition: display linear 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="uname" placeholder="UserName" style="display: block;">
+    <span id="unameWarning" style="color: red; display:none;">at least 12 characters</span>
+    <input type="password" id="psword" placeholder="Password" style="display: block;">
+    <span id="pswordWarning" style="color: red; display:none;">at least 8 characters</span>
+    <button type="button" style="display: block;">LogIn</button>
+    <div class="modal">The Information Is Not Valid!!</div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+/* @font-face {
+    font-family: GeneralSans;
+    src: url(fonts/GeneralSans-Regular.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: GeneralSans;
+    font-size: 16px;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+main{
+    grid-column: 3/11;
+    min-width: 400px;
+    margin: 5% auto;
+    padding: 10px 15px;
+    background-color: #0088CC;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+main .topic{
+    grid-column: 1/-1;
+    margin-bottom: 15px;
+}
+main .topic .menu{
+    float: left;
+}
+main .topic .name{
+    float: left;
+    margin-left: 15px;
+
+}
+main .topic .group{
+    float: right;
+}
+main .topic .group span{
+    margin-left: 10px;
+}
+main .users{
+    grid-column: 1/7;
+}
+main .groups{
+    display: none;
+}
+main .login{
+    grid-column: 7/-1;
+} */

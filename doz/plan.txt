@@ -1,0 +1,23 @@
+main alghorhythm
+
+start
+1: message: choose your sign
+2: play the game
+    2.1: computer win.  |
+    2.2: nobody win.    |    => start the game again!
+end
+
+buttons:
+    styles:
+        hover & animation & onclick
+    scripts:
+        before click:
+            there is hover & animation & onclick 
+        after click:
+            1: there is not periviously styles!!!
+            2: showing sign
+            3: unclickable
+
+notes:
+1. always computer begin at first.
+2. if computer wins three buttons will be change the colors by animation

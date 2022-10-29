@@ -1,0 +1,79 @@
+/* main */
+*{
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    font-size: 20px;
+    background-color: rgb(166, 166, 166);
+    color: white;
+}
+
+/* calculator */
+body{
+    background-color: rgb(166, 166, 166);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+section{
+    overflow: hidden;
+    background-color: rgb(148, 148, 148);
+    color: white;
+    width: 326px;
+    height: fit-content;
+    margin-top: 80px;
+    padding: 4px;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 10px;
+}
+.menu button{
+    padding: 5px 5px;
+    border: none;
+}
+.menu button i{
+    color: white;
+}
+.menu span{
+    padding: 5px;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    padding: 5px 10px;
+    height: 80px;
+}
+.result .proccess{
+    direction: rtl;
+}
+.result .lastNumber{
+    direction: rtl;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2em;
+}
+.result .lastNumber span{
+    display: none;
+    padding-left: 10px;
+    font-size: 0.9em;
+    color:rgb(210, 0, 0);
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: repeat(6, 50px);
+    gap: 2px;
+}
+.buttons button{
+    border: 1px solid rgb(105, 105, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+/* .buttons button{
+    border: none;
+} */

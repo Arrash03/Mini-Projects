@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <style>
+        body{
+            background-color: rgb(97, 97, 97);
+        }
+    </style>
+</head>
+<body>
+    <audio src="سالار عقیلی/10 Second Intro Music.mp3"></audio>
+    <div class="controller">
+        <span id="currentTime"><span>0</span>:<span>00</span></span>
+        <button type="button" id="previous">Previous</button>
+        <button type="button" id="play">Play</button>
+        <button type="button" id="pause">Pause</button>
+        <button type="button" id="reset">Reset</button>
+        <button type="button" id="next">Next</button>
+        <button type="button" id="shuffle">Shuffle</button>
+        <select>
+            <option value="1">1</option>
+            <option value="1.25">1.25</option>
+            <option value="1.5">1.5</option>
+            <option value="1.75">1.75</option>
+            <option value="2">2</option>
+        </select>
+        <span id="durationTime"><span>0</span>:<span>00</span></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

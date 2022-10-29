@@ -1,0 +1,54 @@
+*{
+    font-size: 18px;
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.container{
+    padding: 10px 20px;
+    background-color: orange;
+    text-align: center;
+    /* width: ; */
+    /* height: ; */
+}
+.title{
+
+}
+.title h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+.time{
+
+}
+.time p{
+    font-size: 1.5em;
+}
+.time p span{
+    font-size: 1.5em;
+}
+.buttons{
+
+}
+.buttons .btn{
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: orange;
+    margin: 5px;
+    outline: none;
+    -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.buttons .btn:hover{
+    background-color: white;
+    color: orange;
+}
+#record{
+    text-align: start;
+    /* border-top: 1px solid white; */
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: orange;
+}

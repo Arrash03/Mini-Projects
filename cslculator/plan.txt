@@ -1,0 +1,15 @@
+create something like microsoft calculator
+
+1: Every button found on keyboard -> 1.1: click                             -2.1-
+                                     1.2: numbers on keyboard               -2.2-
+
+2: Menu icon and actions and different situations calculator works like standard, professional      -3-
+
+3: Calculator structure     //warning : Be careful divide by zero(0)        -1-
+
+4: Animations by using css & css frameworks like microsoft calculator       -4-
+
+
+
+
+last: Create temporary memory by using localstorage & session storage        -5-

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c76195c5b9.js" crossorigin="anonymous"></script>
+    <title>Shop</title>
+    <style>
+        *{
+            background-color: rgb(53, 53, 53);
+            color: rgb(171, 171, 171);
+        }
+        .product{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <main style="display: flex; justify-content:space-between;">
+        <div class="products">
+            <div class="product"><span>Pen</span><span>10</span></div>
+            <div class="product"><span>Pencil</span><span>10</span></div>
+            <div class="product"><span>Earaser</span><span>10</span></div>
+            <div class="product"><span>Bag</span><span>10</span></div>
+            <div class="product"><span>Pencilcase</span><span>10</span></div>
+            <div class="product"><span>Book</span><span>5</span></div>
+        </div>
+        <div class="request">
+            <form>
+                <fieldset>
+                    <legend>What Do you Want To Buy??</legend>
+                    <input type="text" placeholder="Enter Your Product..." required>
+                    <input type="submit" value="Order">
+                    <span style="display: none; color:red">Invalid Product!!</span>
+                    <span style="display: none; color:red">Doesn't Exist Anymore!!</span>
+                </fieldset>
+            </form>
+        </div>
+        <div class="receipt">
+            <h3>ShoppingBag</h3>
+            <div class="shoppingBag"></div>
+            <h4>Total Cost: <span id="totalCost">0</span></h4>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

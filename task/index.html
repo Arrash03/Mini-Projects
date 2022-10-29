@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c76195c5b9.js" crossorigin="anonymous"></script>
+    <title>task</title>
+</head>
+<body>
+    <div class="main">
+        <form class="addForm">
+            <label for="taskName">نام تسک</label>
+            <input type="text" class="taskInput" id="taskName" placeholder="تسک خود را ایجاد کنید ...">
+            <input type="submit" class="submit"  value="اضافه کردن">
+        </form><br>
+        <hr>
+        <h1>تسک ها</h1>
+        <label for="filterName">فیلتر تسک ها</label>
+        <input type="text" class="taskInput" id="filterName" placeholder="تسک ...">
+        <ul>
+            <!-- <li><span>تسک 1</span><i class="fa-solid fa-xmark remove-item" title="remove"></i></li>
+            <li><span>تسک 2</span><i class="fa-solid fa-xmark remove-item" title="remove"></i></li>
+            <li><span>تسک 3</span><i class="fa-solid fa-xmark remove-item" title="remove"></i></li> -->
+        </ul>
+        <div id="NotFound"><p>هیچ موردی یافت نشد!</p></div>
+        <button class="submit" onclick="removeAll()" value="پاک کردن">پاک کردن</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
